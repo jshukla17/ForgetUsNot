@@ -1,0 +1,34 @@
+#:kivy 2.0.0
+<HomepageLayout>:
+    canvas:
+        Color:
+            rgba: 0, 1, 1, 0.5
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<day_button>: 
+    canvas.before:
+        Color:
+            rgba: 0.95, 0.92, 0.31, 1
+        Ellipse:
+            pos: self.pos[0]+self.size[0]/4, self.pos[1]+self.size[1]/4
+            size: self.size[0]/2, self.size[1]/2
+    text: self.text
+
+
+<today_button>: 
+    canvas.before:
+        Color:
+            rgba: 0, 1, 0, 1
+        Ellipse:
+            pos: self.pos[0]+self.size[0]/4, self.pos[1]+self.size[1]/4
+            size: self.size[0]/2, self.size[1]/2
+    text: self.text
+
+
+
+<TSpinner>:
+    background_color: 1,1,1,1
+    background_normal: ''
+    color: 0,0,0,1
