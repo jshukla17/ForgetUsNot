@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ForgetUsNot!</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="time">Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="save">Save</string>
+    <string name="change">Change</string>
+    <string name="channel_name">Reminders</string>
+    <string name="channel_description">All your set reminders show up here</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="title_activity_info_edit_delete">InfoEditDelete</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_edit_reminder">EditReminder</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Submit">Submit</string>
+    <string name="weekly">Weekly (Once, every 7 days)</string>
+    <string name= "Biweekly">Biweekly (Once, every 14 days)</string>
+    <string name="Monthly">Monthly (Once, every 30 days)</string>
+    <string name="Custom">Custom (Once, every </string>
+    <string name="days">days)</string>
+    <string name="title_activity_catch_up">CatchUp</string>
+    <string name="title_activity_loved_one">LovedOneActivity</string>
+</resources>
